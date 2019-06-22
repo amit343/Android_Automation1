@@ -1,0 +1,1 @@
+include ':app', ':hackbar', ':logger', ':androidauto', ':intent1'

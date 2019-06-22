@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height  = "wrap_content"
+        android:id="@+id/edt"
+        android:fontWeight="400"
+        android:hint="Welcome to Automation"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnokay"
+        android:textFontWeight="30"
+        android:background="@color/colorAccent"
+        android:text="OPEN WHATSAPP"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnokay1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:text="OPEN LINKDIN"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnokay2"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:text="OPEN TWITTER"/>
+
+
+</LinearLayout >
